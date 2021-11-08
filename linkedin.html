@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin Clone</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="">
+ <div class="bs bg-white"> <!-- Shadow -->
+  <nav class="container"> <!-- Header Container -->
+     <div class="row">
+        <div class="col-10 offset-1 p-0">
+            <div class="row">
+             <div class="col-4 d-flex align-items-center p-0"> <!-- Search Input 1/3-->
+                <i class="fab text-primary fa-linkedin fa-3x"></i>
+                    <span>
+                         <input type="text" placeholder="Arama Yap" class="ms-2 py-2 px-5 text-black c-grey border-0">    
+                    </span>
+             </div>
+            <div class="col-6 text-black-50 ps-5"> <!-- 2/3 -->
+        <div class="row pt-2 text-center p-0">
+            <span class="col-2 text-body border-dark bor-b"> <!-- Ana Sayfa -->
+                                    <div>
+                                        <i class="fas fa-home fa-lg"></i>
+                                    </div>
+                                    <span class="d-block">
+                                        Ana Sayfa
+                                    </span>  
+                                </span>
+                                <span class="col-2"> <!-- Ağım -->
+                                    <div>
+                                        <i class="fas fa-users fa-lg"></i>
+                                    </div>
+                                    <span class="d-block">
+                                        Ağım
+                                    </span>  
+                                </span>
+                                <span class="col-2"> <!-- İş İlanları -->
+                                    <div>
+                                        <i class="fas fa-briefcase fa-lg"></i>
+                                    </div>
+                                    <span class="d-block">
+                                        İş İlanları
+                                    </span>  
+                                </span>
+                                <span class="col-2"> <!-- Mesajlaşma -->
+                                    <div>
+                                        <i class="fas fa-comment-dots fa-lg"></i>
+                                    </div>
+                                    <span class="d-block msg">
+                                        Mesajlaşma
+                                    </span>  
+                                </span>
+                                <span class="col-2"> <!-- Bildirimler -->
+                                    <div>
+                                        <i class="fas fa-bell fa-lg"></i>
+                                    </div>
+                                    <span class="d-block">
+                                        Bildirimler
+                                    </span>  
+                                </span>
+                                <span class="col-2"> <!-- Ben - sol üstteki prfil resmi -->
+                                    <div>
+                                       <img src="img/ben.jpg" style="width: 25px; height: 25px;" class="rounded-circle" alt="">
+                                    </div>
+                                    <span class="d-block">
+                                        Ben
+                                    </span>  
+                                </span>
+                            </div>
+                            
+                        </div>
+                        <div class="col-2 justify-content-end"> <!-- 3/3 -->
+                            <div class="row py-1">                                
+                                <div class="col-3 p-0 ps-3 justify-content-center align-items-center bor-start">
+                                    <div class="text-center">
+                                        <i class="fas fa-bars fa-lg"></i>
+                                        <div class="">
+                                            İş
+                                            <i class="fas fa-caret-down d-inline"></i>
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="col-9 p-0 text-end">
+                                    <span class="py-2">
+                                        <a href="" class="amber-70 f-12 d-inline-block text-center">
+                                            Premium'u ücretsiz <br> deneyin
+                                        </a>
+                                     </span>
+                                </div>            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container mt-2"> <!-- Main Container -->
+        <div class="row">
+            <div class="col-10 offset-1 p-0">
+                <div class="row justify-content-between">
+                    <aside class="col-2" style="width: 210px;"> <!-- Left Main -->
+                        <div class="bg-white row rad-b rad-t bs bor ">   <!-- 1. Aside -->
+                            <header class="col-12 hover text-center rad-t">
+                                <a class="" href="">
+                                    <div>
+                                        <figure class="pt-3 text-body">
+                                            <img src="img/ben.jpg" class="rounded-circle" style="width: 50px; height: 50px;" alt="">
+                                        </figure>
+                                        <h6 class="text-body">
+                                            Esin Çağla Kıral
+                                        </h6>
+                                        <p class="small opacity-75 text-body">
+                                            Front-End Developer
+                                        </p>
+                                    </div>
+                                </a>
+                            </header>    
+                            <section class="col-12 text-start f-12 py-2 hover bor-b">
+                                <a class="" href="">
+                                    <div>
+                                        <span class="text-black-50">  
+                                            Profilinizi kimler görüntüledi <p class="text-primary d-inline px-1 ">517</p>
+                                        </span>
+                                        <br>
+                                        <span class="text-black-50">  
+                                            Yayınınız için görüntülenme <p class="text-primary d-inline px-2 ">139</p>
+                                        </span>
+                                        <br><br>
+                                        <span class="text-body">
+                                            İletişim ağınızı büyütün
+                                        </span>
+                                    </div>
+                                </a>
+                            </section>
+                            <section class="col-12 text-start  f-12 py-2 hover bor-b">
+                                <a class="" href="">
+                                    <div>
+                                        <span class="text-black-50">  
+                                        Özel araç ve içgörülere erişin
+                                        </span>
+                                        <br>
+                                        <span class="text-body">
+                                         Premium'u ücretsiz deneyin
+                                        </span>
+                                    </div>
+                                </a>
+                            </section>
+                            <section class="col-12 text-start f-12 py-2 hover rad-b">
+                                <a class="" href="">
+                                    <div>
+                                        <span class="text-body">
+                                            Ögelerim
+                                        </span>
+                                    </div>
+                                </a>
+                            </section>
+                        </div>
+                        <div class="mt-3 bg-white row rad-b rad-t bs bor ">   <!-- 2. Aside -->
+                            <section class="col-12 text-start f-12 py-2 hover rad-t">
+                                <a class="text-primary" href="">
+                                    <div>
+                                        <span>
+                                            Gruplar
+                                        </span>
+                                    </div>
+                                </a>
+                            </section>
+                            <section class="col-12 text-start  f-12 py-2 hover ">
+                                <a class="text-primary" href="">
+                                    <div class="d-flex justify-content-between">
+                                        <span>
+                                            Etkinlikler
+                                        </span>
+                                        <span>
+                                            <i class="fas fa-plus fa-lg text-black-50"></i>
+                                        </span>
+                                    </div>
+                                </a>
+                            </section>
+                            <section class="col-12 text-start  f-12 py-2 hover bor-b">
+                                <a class="text-primary" href="">
+                                    <div>
+                                        <span>
+                                            Takip edilen hashtagler
+                                        </span>
+                                    </div>
+                                </a>
+                            </section>
+                            <section class="col-12 text-start f-14 py-2 text-center rad-b">
+                                <a class="" href="">
+                                    <div>
+                                        <span class="text-body">
+                                            Daha Fazla Keşfet
+                                        </span>
+                                    </div>
+                                </a>
+                            </section>
+                        </div>
+                        
+                    </aside>
+
+                    <main class="col-6 "> <!-- Orta Main -->
+                        <section class="row pt-1 rad-t rad-b bor border-bottom-0 bs bg-white"> <!-- 1. Orta  -->
+                            <article class="col-12">
+                                <div class="row">
+                                    <section class="col-1 p-0">
+                                        <img src="img/ben.jpg" class="rounded-circle mt-2 ms-3" style="width: 40px; height: 40px;" alt="">
+                                    </section>
+                                    <section class="col-10 py-2 ms-4 p-0">
+                                        <input type="text" placeholder="Bir gönderi başlat" class="w-100 py-2 px-3 p-2 rad-2b rad-2t bor">
+                                    </section>
+                                </div>
+                            </article>
+                            <article class="col-12 py-3">
+                                <div class="row">
+                                    <div class="col-3 text-start p-0">
+                                        <i class="fas fa-image text-primary opacity-75 fa-lg ms-4 me-2"></i> 
+                                        <span class="opacity-75">
+                                            Fotoğraf
+                                        </span>
+                                    </div>
+                                    <div class="col-3 text-start p-0">
+                                        <i class="fab fa-youtube text-success opacity-75 fa-lg ms-4 me-2"></i> 
+                                        <span class="opacity-75">
+                                            Video
+                                        </span>
+                                    </div>
+                                    <div class="col-3 text-start p-0">
+                                        <i class="fa fa-calendar-times-o  text-warning opacity-75 fa-lg ms-4 me-2"></i> 
+                                        <span class="opacity-75">
+                                            Etkinlik
+                                        </span>
+                                    </div>
+                                    <div class="col-3 text-start p-0">
+                                        <i class="fa fa-newspaper-o text-danger opacity-75 fa-lg ms-4 me-2"></i> 
+                                        <span class="opacity-75">
+                                            Yazı Yaz
+                                        </span>
+                                    </div>
+                                </div>
+                                
+                            </article>
+                        </section>    
+
+                        <section class="row mt-1"> 
+                            <div class="col-12">
+                                <div class="row">
+                                    <section class="col-8 p-0">
+                                        <hr>
+                                    </section>
+                                    <section class="col-4 p-0 pt-1 text-end">
+                                        <span class="f-12 text-black-50 pe-1">
+                                            Sıralama ölçütü:
+                                        </span>
+                                        <span class="f-12 pe-1">
+                                            En Önemli
+                                        </span>
+                                        <i class="fas fa-caret-down fa-lg d-inline pe-1"></i>
+                                    </section>
+                                </div>
+                            </div>
+                        </section>    
+
+                        <article class="row pt-3 rad-t rad-b bor border-bottom-0 bs bg-white mt-1"> <!-- 2. orta-->
+                            <header class="col-12">
+                                <section class="row ps-3">
+                                    <div class="col-1 p-0 pt-1 text-center bg-dark">
+                                        <i class="fab fa-android fa-2x text-warning"></i>
+                                        <div id="clear-text" class="bg-white text-white p-1">
+                                            .
+                                        </div>
+                                    </div>
+                                    <div class="col-10 ">
+                                        <div class="d-flex flex-column">
+                                            <span class="f-14">
+                                               Android Yazılımcıları Topluluğu
+                                            </span>
+                                            <span class="f-12 text-black-50">
+                                                400.620 takipçi
+                                            </span>
+                                            <span class="f-12 text-black-50">
+                                                2 gün
+                                            </span>
+                                        </div>
+                                    </div>
+                                </section>
+                            </header>
+                            <main class="col-12">
+                                <div>
+                                    İstanbuldaki trafik sorunu için android telefonlara özel geliştirilmiş yeni bir mühendislik harikası proje geliştirildi!
+                                    Detaylar için <a href="#">tıklayınız.</a>
+                                </div>
+                                <div class="pt-3">
+                                    <img src="img/trafik.jpg" width="100%" alt="">
+                                    <div class="text-black-50 f-12 bor-b pt-0 pb-2">
+                                        5.750 Beğeni • 150 yorum
+                                    </div>
+                                </div>
+                            </main>
+                            <section class="col-12 py-3">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="opacity-75 p-0 d-flex align-items-center justify-content-around">
+                                            <i class="far fa-thumbs-up fa-1x"></i>
+                                            Beğen
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="opacity-75 p-0 d-flex align-items-center justify-content-around">
+                                            <i class="far fa-comment fa-1x"></i>
+                                                Yorum Yap
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="opacity-75 p-0 d-flex align-items-center justify-content-around">
+                                            <i class="fas fa-level-down-alt fa-1x"></i>
+                                            Paylaş
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="opacity-75 p-0 d-flex align-items-center justify-content-around">
+                                            <i class="fab fa-telegram-plane fa-1x"></i>
+                                            Gönder
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+
+                                    </div>
+                                </div>
+                            </section>
+                        </article>    
+                        <article class="row pt-3 rad-t rad-b bor border-bottom-0 bs bg-white mt-3"> <!-- 2. orta-->
+                            <header class="col-12">
+                                <section class="row ps-3">
+                                    <div class="col-1 p-0 pt-1 text-center">
+                                        <img src="img/elonmusk.jpg" style="width: 40px; height: 45px;" alt="">
+                                        <div id="clear-text" class="bg-white text-white p-1">
+                                            .
+                                        </div>
+                                    </div>
+                                    <div class="col-10 ">
+                                        <div class="d-flex flex-column">
+                                            <span class="f-14">
+                                               Elon Musk
+                                            </span>
+                                            <span class="f-12 text-black-50">
+                                                10.900.880 takipçi
+                                            </span>
+                                            <span class="f-12 text-black-50">
+                                                3 gün
+                                            </span>
+                                        </div>
+                                    </div>
+                                </section>
+                            </header>
+                            <main class="col-12">
+                                <div>
+                                    SpaceX astronauts will make their way back to space. As you may recall, the company achieved another first with its 4-person crew last month. This crew of 4, with no astronauts among them, made space travel. Thus, an important turning point in history was passed.
+                                     <a href="#">Click to apply.</a>
+                                </div>
+                                <div class="pt-3">
+                                    <img src="img/spacex.jpg" width="100%" alt="">
+                                    <div class="text-black-50 f-12 bor-b pt-0 pb-2">
+                                        90.950 Beğeni • 50.150 yorum
+                                    </div>
+                                </div>
+                            </main>
+                            <section class="col-12 py-3">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="opacity-75 p-0 d-flex align-items-center justify-content-around">
+                                            <i class="far fa-thumbs-up fa-1x"></i>
+                                            Beğen
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="opacity-75 p-0 d-flex align-items-center justify-content-around">
+                                            <i class="far fa-comment fa-1x"></i>
+                                                Yorum Yap
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="opacity-75 p-0 d-flex align-items-center justify-content-around">
+                                            <i class="fas fa-level-down-alt fa-1x"></i>
+                                            Paylaş
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="opacity-75 p-0 d-flex align-items-center justify-content-around">
+                                            <i class="fab fa-telegram-plane fa-1x"></i>
+                                            Gönder
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+
+                                    </div>
+                                </div>
+                            </section>
+                        </article>  
+                        <article class="row pt-3 rad-t rad-b bor border-bottom-0 bs bg-white mt-3"> <!-- Orta 3 -->
+                            <header class="col-12">
+                                <section class="row ps-3">
+                                    <div class="col-1 p-0 pt-1 text-center bg-dark">
+                                        <i class="fab fa-amazon fa-3x text-warning"></i>
+                                        <div id="clear-text" class="bg-white text-white p-1">
+                                            .
+                                        </div>
+                                    </div>
+                                    <div class="col-10 ">
+                                        <div class="d-flex flex-column">
+                                            <span class="f-14">
+                                                Amazon
+                                            </span>
+                                            <span class="f-12 text-black-50">
+                                                909.300 takipçi
+                                            </span>
+                                            <span class="f-12 text-black-50">
+                                                5 Gün
+                                            </span>
+                                        </div>
+                                    </div>
+                                </section>
+                            </header>
+                            <main class="col-12">
+                                <div>
+                                    Amazon company is looking for a Frontend developer. <a href="#">Click to apply.</a> 
+                                </div>
+                                <div class="pt-3">
+                                    <img src="img/amazon.jpg" width="100%" alt="">
+                                    <div class="text-black-50 f-12 bor-b pt-0 pb-2">
+                                        20.980 Beğeni • 1.805 yorum
+                                    </div>
+                                </div>
+                            </main>
+                            <section class="col-12 py-3">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="opacity-75 p-0 d-flex align-items-center justify-content-around">
+                                            <i class="far fa-thumbs-up fa-1x"></i>
+                                            Beğen
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="opacity-75 p-0 d-flex align-items-center justify-content-around">
+                                            <i class="far fa-comment fa-1x"></i>
+                                                Yorum Yap
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="opacity-75 p-0 d-flex align-items-center justify-content-around">
+                                            <i class="fas fa-level-down-alt fa-1x"></i>
+                                            Paylaş
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="opacity-75 p-0 d-flex align-items-center justify-content-around">
+                                            <i class="fab fa-telegram-plane fa-1x"></i>
+                                            Gönder
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+
+                                    </div>
+                                </div>
+                            </section>
+                        </article>    
+                    </main>
+                    <aside class="col-3"> <!-- Right Main -->
+                        <aside class="row bg-white rad-b rad-t bs">   <!-- 1. Aside -->
+                            <header class="col-12 text-start f-16 py-2">
+                                <div class="d-flex justify-content-between">
+                                    <span class="text-body">
+                                        Akışınıza ekleyin
+                                    </span>
+                                    <div class="me-1"> 
+                                        <i class="fas fa-info"></i>
+                                    </div> 
+                                </div>  
+                            </header>
+                            <section class="col-12 pt-2 pb-2">
+                                <a class="d-flex justify-content-start" href="">
+                                    <figure class="text-body">
+                                        <img src="img/ceo.jpg" class="rounded-circle" style="width: 40px; height: 40px;" alt="">
+                                    </figure>
+                                    <div class="mt-1 ms-3 p-0">
+                                        <h6 class="text-body f-14">
+                                            Cameron Alex <i class="fab fa-linkedin text-primary"></i>
+                                        </h6>
+                                        <p class="small opacity-75 text-body p-0 m-0">
+                                            Ceo • Software Company
+                                        </p>
+                                        <div class="btn-outline-secondary btn rad-2b rad-2t mt-1" style="width: 110px; height: 35px;">
+                                            <i class="fas fa-plus" ></i> Takip et
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="d-flex justify-content-start" href="">
+                                    <figure class="text-body">
+                                        <img src="img/paypal.jpg" class="rounded-circle" style="width: 40px; height: 40px;" alt="">
+                                    </figure>
+                                <div class="mt-1 ms-3 p-0">
+                                    <h6 class="text-body f-14">
+                                        PayPal <i class="fab fa-paypal text-primary"></i>
+                                    </h6>
+                                    <p class="small opacity-75 text-body p-0 m-0">
+                                        Şirket • Finans
+                                    </p>
+                                    <div class="btn-outline-secondary btn rad-2b rad-2t mt-1" style="width: 110px; height: 35px;">
+                                        <i class="fas fa-plus" ></i> Takip et
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="d-flex justify-content-start" href="">
+                                <figure class="text-body">
+                                    <img src="img/amazon.jpg" class="rounded-circle" style="width: 40px; height: 40px;" alt="">
+                                </figure>
+                            <div class="mt-1 ms-3 p-0">
+                                <h6 class="text-body f-14">
+                                    Amazon Türkiye <i class="fab fa-amazon fa-1x"></i>
+                                </h6>
+                                <p class="small opacity-75 text-body p-0 m-0">
+                                    Şirket • Lojistik Teknolojisi
+                                </p>
+                                <div class="btn-outline-secondary btn rad-2b rad-2t mt-1" style="width: 110px; height: 35px;">
+                                    <i class="fas fa-plus" ></i> Takip et
+                                </div>
+                            </div>
+                        </a>
+                            </section>    
+                            <footer class="col-12 text-start f-14 py-2">
+                                <a class="" href="">
+                                    <div>
+                                        <span class="text-secondary ">
+                                            Tüm tavsiyeleri görüntüle <i class="fas fa-arrow-right"></i>
+                                        </span>
+                                    </div>
+                                </a>
+                            </footer>
+                        </aside>
+                        <aside class="mt-3 row bg-white bor rad-b rad-t bs">   <!-- 2. Aside  -->
+                            <header class="col-12 text-start f-16 py-2">
+                                <div class="d-flex justify-content-between">
+                                    <span class="text-body">
+                                        Bugünün en önemli eğitimleri
+                                    </span>
+                                    <div class="me-1"> 
+                                        <i class="fas fa-info"></i>
+                                    </div> 
+                                </div>  
+                            </header>
+                            <section class="col-12 text-start  f-14 py-2 hover">
+                                <a class="text-body" href="">
+                                    <div class="">
+                                        <div>
+                                            1. İsmek Frontend Developer
+                                        </div>
+                                        <div class="small text-secondary">
+                                            İBB İsmek
+                                        </div>
+                                    </div>
+                                </a>
+                            </section>
+                            <section class="col-12 text-start  f-14 py-2 hover">
+                                <a class="text-body" href="">
+                                    <div class="">
+                                        <div>
+                                            2. Javascript Software Proficiency Bootcamp
+                                        </div>
+                                        <div class="small text-secondary">
+                                            Udemy
+                                        </div>
+                                    </div>
+                                </a>
+                            </section><section class="col-12 text-start  f-14 py-2 hover">
+                                <a class="text-body" href="">
+                                    <div class="">
+                                        <div>
+                                            3. How to be a good Manager?
+                                        </div>
+                                        <div class="small text-secondary">
+                                            edX
+                                        </div>
+                                    </div>
+                                </a>
+                            </section>
+                            <section class="col-12 f-14 py-2 hover text-center rad-b">
+                                <a class="" href="">
+                                    <div>
+                                        <span class="text-secondary ">
+                                            LinkedIn Learning‘de daha fazlasını göster <i class="fas fa-arrow-right"></i>
+                                        </span>
+                                    </div>
+                                </a>
+                            </section>
+                        </aside>
+                        <footer class="mt-3 row">   <!-- Aside - Footer -->
+                            <section class="col-12">
+                                <span class="mx-2 links">
+                                    <a class="text-primary" href="">
+                                        Hakkında
+                                    </a>  
+                                </span>
+                                <span class="mx-2 links">
+                                    <a class="text-primary" href="">
+                                        Erişilebilirlik
+                                    </a>  
+                                </span>
+                                <span class="mx-2 links">
+                                    <a class="text-primary" href="">
+                                        Yardım Merkezi
+                                    </a>  
+                                </span>
+                                <span class="mx-2 links">
+                                    <a class="text-primary" href="">
+                                        Gizlilik ve Koşullar
+                                    </a>  
+                                </span>
+                                <span class="mx-2 links">
+                                    <a class="text-primary" href="">
+                                        Reklam Tercihleri
+                                    </a>  
+                                </span>
+                                <span class="mx-2 links">
+                                    <a class="text-primary" href="">
+                                        Reklam
+                                    </a>  
+                                </span>
+                                <span class="mx-2 links">
+                                    <a class="text-primary" href="">
+                                        Ticari Hizmetler
+                                    </a>  
+                                </span>
+                                <br>
+                                <span class="mx-2 links">
+                                    <a class="text-primary" href="">
+                                        LinkedIn uygulamasını yükle
+                                    </a>  
+                                </span>
+                                <span class="mx-2 links">
+                                    <a class="text-primary" href="">
+                                        Daha Fazla
+                                    </a>  
+                                </span>
+                                <div class="mx-2 mt-3 linkedinlogo">
+                                    <a class="text-dark" style="font-size: 12px;" href="">
+                                        <i class="fab fa-linkedin text-primary"></i> LinkedIn Corporation © 2021
+                                    </a> 
+                                </div>
+                            </section>
+                        </footer>
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/442efc7c2f.js" crossorigin="anonymous"></script>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
